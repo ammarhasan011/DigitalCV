@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins : 200, 300, 400, 500, 600, 700,800, 900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+    color: rgb(0, 63, 119);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+body {
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(169, 167, 167);
+    height: 90px;
+    width: 100%;
+    top: 0;
+    right: 0px;
+    left: 0;
+    position: fixed;
+}
+
+.headerinnehall {
+    text-align: center;
+    color: rgb(255, 184, 52);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.headerinnehall h2 {
+    color: white;
+}
+
+.headerinnehall h3 {
+    color: white;
+}
+
+main {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+main h2 {
+    color: rgb(255, 184, 52);
+}
+main h3 {
+    color: rgb(255, 184, 52);
+}
+
+.snabblista {   
+    font-weight: bold;
+    
+}
+
+.personligbild {
+    padding-top: 50px;
+}
+
+.white {
+    margin-left: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#orange {
+    padding-top: 110px;
+    color:rgb(255, 184, 52);
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.texttext {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+footer {
+    background-color: rgb(255, 184, 52);
+    height: 100px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;  
+}
+
+footer h2 {
+    color: white;
+}
+   
+
+/**För ipad**/
+@media (max-width: 788px)
+{
+    header {
+        height: 110px;
+    }
+    body 
+    {
+        flex-direction: column;
+    }
+}
+    
+/**För mobil**/
+@media (max-width: 397px) {
+    header {
+        height: 130px;
+    }
+    main {
+        margin-top: 150px;
+    }
+}
