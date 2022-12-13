@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ammar CV</title>
+    <title>Ammar's CV</title>
 
-    <!--Länkar till style.css-->
+    <!--Länkar-->
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/5a9bbefb56.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body background="assets/grey.jpg">
@@ -28,28 +29,27 @@
         <h3>Välj stycket du vill läsa!</h3> <br>
 
         <ol class="snabblista">
-            <!--länk till mina link.html-->
             <a href="personligbrev.html">Personlig brev</a> <br>
             <!--mina ankar länkar-->
             <a href="#presentationstext">Presentationstext</a> <br>
             <a href="#arbetslivserfaranheters">Arbetslivserfaranheters</a> <br>
             <a href="#sprakkunskaper">Språkkunskaper</a> <br>
             <a href="#korkort">Körkort</a> <br> <br>
-        </ol>
+        </ol> <!--vad gör ol här-->
         <!--Personligbild-->
         <div class="personligbild">
             <img src="./assets/personligbild.jpg" width="200px" alt="personligbild">
         </div>
     </main>
 
-
-    <li id="orange">Presentationstext</li>
-    <li id="presentationstext"></li>
+    <ol>
+        <li id="orange">Presentationstext</li>
+        <li id="presentationstext"></li>
+    </ol>
     <p class="white">
-        Jag heter Ammar Hasan, jag är 22 år gammal och jag bott i Uddevalla i ungefär 5 år,
-        <br>
+        Jag heter Ammar Hasan, jag är 22 år gammal och jag bott i Uddevalla i ungefär 5 år.<br>
         Mina intressen är att spela fotboll, laga mat och koda. <br>
-        Mina vänner beskriver mig som en snäll, tålmodig, intresserad, social och positiv person.
+        <!--Mina vänner beskriver mig som en snäll, tålmodig, intresserad, social och positiv person.-->
     </p>
 
 
@@ -83,8 +83,7 @@
             <li>Turkiska</li>
         </ul>
     </ol>
-
-    <ol class="korkort" start="4">
+    <ol class="korkort" start="3"> <!--varför blir siffrorna så?-->
         <li id="korkort"></li>
         <li id="orange"> Körkort</li>
 
@@ -94,55 +93,25 @@
     </ol>
 
     <section class="texttext">
-        <!--Bara för att fylla sidan och kunna scrolla-->
-        <!-- <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> Maiores quidem aliquid non
-            repellat facere distinctio exercitationem! <br>
-        </P>
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem non repellat
-            facere distinctio nesciunt exercitationem! <br>
-        </P> <br>
-
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem
-            aliquid non repellat facere distinctio nesciunt exercitationem! <br>
-        </P>
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem
-            aliquid non repellat facere distinctio nesciunt exercitationem! <br>
-        </P> <br>
-
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem
-            aliquid non repellat facere distinctio nesciunt exercitationem! <br>
-        </P>
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem
-            aliquid non repellat facere distinctio nesciunt exercitationem! <br>
-        </P>
-        <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing Alias, mollitia adipisci <br>
-            est totam minus aliquid doloribus excepturi aliquam repellendus tempora. <br> maiores quidem
-            aliquid non repellat facere distinctio nesciunt exercitationem! <br>
-        </P> <br> -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil asperiores nesciunt explicabo
+            voluptatem illo fuga et sapiente quia eaque? Ducimus impedit architecto sequi incidunt repellat cupiditate
+            dolore odio labore.
+        </p>
     </section>
 
+    <script src="main.js"></script>
+    <div class="scroll">
+        <!-- <i class="fa-solid fa-arrow-up fa-2xl"></i> -->
+
+    </div>
 
     <footer class="footer"> <br>
         <h2>Tack för att ni tog er tid att läsa!</h2> <br>
 
+        <a href="https://github.com/ammarhasan011" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
         <a href="https://www.linkedin.com/in/ammar-hasan-080043251/" target="_blank"><i
-                class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/ammarhasan011" target="_blank"><i class="fa-brands fa-github"></i></a>
-
-
+                class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </footer>
 
 </body>

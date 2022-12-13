@@ -57,7 +57,15 @@ body {
 
 .textlink {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    /*width: 35rem;*/
     color: rgb(255, 184, 52);
+    border: 3px solid #73AD21;
+}
+
+.pp {
+    display: flex;
+    align-content: center;
 }
 
 .linkfooter {
