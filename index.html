@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ammar's CV</title>
 
-    <!--Länkar-->
+    <!--links-->
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
     <script src="https://kit.fontawesome.com/5a9bbefb56.js" crossorigin="anonymous"></script>
 </head>
+<!--background pic-->
 
 <body background="assets/grey.jpg">
 
@@ -19,8 +20,7 @@
         <div class="headerinnehall">
             <h1>Ammar Hasan </h1>
             <h2>webbutvecklare inom e-handel</h2>
-            <h3>Uddevalla/ 076-578 94 94/</h3>
-            <a href="personligbrev.html">Personlig brev</a> <br>
+            <a href="personligbrev.html">Personlig brev</a>
         </div>
     </header>
 
@@ -30,22 +30,22 @@
         <h3>Välj stycket du vill läsa!</h3> <br>
 
         <ol class="snabblista">
-            <!--mina ankar länkar-->
+            <!--my ankar links-->
             <a href="#presentationstext">Presentationstext</a> <br>
             <a href="#arbetslivserfaranheters">Arbetslivserfaranheters</a> <br>
             <a href="#sprakkunskaper">Språkkunskaper</a> <br>
             <a href="#korkort">Körkort</a> <br> <br>
         </ol> <!--vad gör ol här-->
-        <!--Personligbild-->
+
+        <!--Personal image-->
         <div class="personligbild">
             <img src="./assets/personligbild.jpg" width="200px" alt="personligbild"> <br>
-            <img src="./assets/personligbild1.png" width="200px" alt="personligbild">
         </div>
     </main>
 
     <ol>
         <li id="orange">Presentationstext</li>
-        <li id="presentationstext"></li>
+        <!-- <li id="presentationstext"></li> -->
     </ol>
     <p class="white">
         Kort sammanfattning om dig själv – ”Hisspitch”
@@ -54,8 +54,13 @@
         <!--Mina vänner beskriver mig som en snäll, tålmodig, intresserad, social och positiv person.-->
     </p>
 
+    <ol start="2">
+        <li id="orange">Utbildningsbakgrund</li>
+        <p class="white">I gymnasiet hs jag läst teknikprogrammet</p>
+    </ol>
 
-    <ol class="arbetlista" start="2">
+
+    <ol class="arbetlista" start="3">
         <li id="orange">Arbetslivserfaranheters</li>
         <li id="arbetslivserfaranheters"></li>
 
@@ -75,26 +80,7 @@
 
     </ol>
 
-    <div class="minasprak">
-        <h1 id="orange">Mina språk</h1>
 
-        <li>
-            <h3>Svenska</h3>
-            <span class="bar"><span class="svenska"></span></span>
-        </li>
-        <li>
-            <h3>Engelska</h3>
-            <span class="bar"><span class="engelska"></span></span>
-        </li>
-        <li>
-            <h3>Arabiska</h3>
-            <span class="bar"><span class="arabiska"></span></span>
-        </li>
-        <li>
-            <h3>Turkiska</h3>
-            <span class="bar"><span class="turkiska"></span></span>
-        </li>
-    </div>
 
 
     <ol class="korkort" start="3"> <!--varför blir siffrorna så?-->
@@ -120,13 +106,43 @@
         </ul>
     </ol>
 
-    <h1 id="orange">Utbildningsbakgrund</h1>
+    <ol>
+        <li id="orange">Mina språk</li>
+        <!-- <li id="presentationstext"></li> -->
+    </ol>
+
+    <div class="minasprak">
+        <!-- <h1 id="orange">Mina språk</h1> -->
+
+        <li>
+            <h3>Svenska</h3>
+            <span class="bar"><span class="svenska"></span></span>
+        </li>
+        <li>
+            <h3>Engelska</h3>
+            <span class="bar"><span class="engelska"></span></span>
+        </li>
+        <li>
+            <h3>Arabiska</h3>
+            <span class="bar"><span class="arabiska"></span></span>
+        </li>
+        <li>
+            <h3>Turkiska</h3>
+            <span class="bar"><span class="turkiska"></span></span>
+        </li>
+    </div>
+
+    <ol>
+        <li id="orange">Kontakt</li>
+        <!-- <li id="presentationstext"></li> -->
+    </ol>
 
 
     <section class="texttext">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil asperiores nesciunt explicabo
             voluptatem illo fuga et sapiente quia eaque? Ducimus impedit architecto sequi incidunt repellat cupiditate
             dolore odio labore.
+        <h3>Uddevalla/ 076-578 94 94/</h3>
         </p>
     </section>
 
@@ -145,7 +161,7 @@
         <a href="https://github.com/ammarhasan011" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
         <a href="https://www.linkedin.com/in/ammar-hasan-080043251/" target="_blank"><i
                 class="fa-brands fa-linkedin fa-2xl"></i></a>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <a href="index.html"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
     </footer>
 
 </body>
