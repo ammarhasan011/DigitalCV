@@ -227,7 +227,9 @@ footer h2 {
 }
 
 /**För mobil**/
-@media (max-width: 375px) {
+@media (max-width: 440px) {
+
+    /* 375px */
     header {
         height: 105px;
         width: 100%;
