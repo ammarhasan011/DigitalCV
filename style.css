@@ -20,7 +20,7 @@ body {
 
 header {
     background-color: rgb(169, 167, 167);
-    height: 90px;
+    height: 105px;
     width: 100%;
     top: 0;
     right: 0px;
@@ -75,7 +75,7 @@ main h3 {
 }
 
 .white {
-    margin-left: 30px;
+    margin: 25px;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -235,7 +235,7 @@ footer h2 {
     }
 
     main {
-        margin-top: 150px;
+        margin-top: 170px;
     }
 
     .minasprak {
@@ -245,5 +245,6 @@ footer h2 {
 
     footer {
         width: 100%;
+        right: 0;
     }
 }
