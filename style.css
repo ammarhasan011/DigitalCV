@@ -66,7 +66,12 @@ main h3 {
     width: 20px;
     height: auto;
     /* box-shadow: 10px 10px 10px rgba(252, 103, 103, 1); */
-    filter: drop-shadow(10px 10px 10px rgba(252, 103, 103, 1));
+    filter: drop-shadow(10px 10px 10px rgb(255, 184, 52));
+    /* box-shadow: 30px 30px 30px 30px rgb(0, 63, 119); */
+
+    /* box-shadow: 3px 3px 1px #ccc;
+    -webkit-box-shadow: 3px 3px 1px #ccc;
+    -moz-box-shadow: 3px 3px 1px #ccc; */
 }
 
 .white {
@@ -148,7 +153,7 @@ footer h2 {
 }
 
 .svenska {
-    width: 90%;
+    width: 100%;
     animation: svenska 5s;
 }
 
@@ -158,12 +163,12 @@ footer h2 {
     }
 
     100% {
-        width: 90%
+        width: 100%
     }
 }
 
 .engelska {
-    width: 80%;
+    width: 100%;
     animation: engelska 5s;
 }
 
@@ -173,7 +178,7 @@ footer h2 {
     }
 
     100% {
-        width: 80%;
+        width: 100%;
     }
 }
 
