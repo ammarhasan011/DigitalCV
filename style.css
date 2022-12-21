@@ -227,12 +227,23 @@ footer h2 {
 }
 
 /**För mobil**/
-@media (max-width: 397px) {
+@media (max-width: 375px) {
     header {
-        height: 130px;
+        height: 105px;
+        width: 100%;
+
     }
 
     main {
         margin-top: 150px;
+    }
+
+    .minasprak {
+        width: 310px;
+        margin: 10px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
