@@ -231,13 +231,17 @@ footer h2 {
 
     /* 375px */
     header {
-        height: 105px;
+        height: 110px;
         width: 100%;
 
     }
 
     main {
         margin-top: 170px;
+    }
+
+    .personligbild {
+        filter: none;
     }
 
     .minasprak {
