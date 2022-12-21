@@ -97,7 +97,7 @@ body {
 }
 
 /**För mobil**/
-@media (max-width: 375px) {
+@media (max-width: 440px) {
     header {
         height: 130px;
     }
