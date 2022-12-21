@@ -32,7 +32,7 @@ body {
 .linkheader {
     text-align: center;
     background-color: rgb(169, 167, 167);
-    height: 40px;
+    height: 70px;
     width: 100%;
     top: 0;
     right: 0px;
@@ -57,6 +57,7 @@ body {
 
 .textlink {
     text-align: center;
+    margin: 20px;
     font-family: 'Poppins', sans-serif;
     /*width: 35rem;*/
     color: rgb(255, 184, 52);
@@ -96,9 +97,17 @@ body {
 }
 
 /**För mobil**/
-@media (max-width: 397px) {
+@media (max-width: 375px) {
     header {
         height: 130px;
+    }
+
+    .linkheader {
+        height: 105px;
+    }
+
+    .textlink {
+        margin: 10px;
     }
 
     main {
