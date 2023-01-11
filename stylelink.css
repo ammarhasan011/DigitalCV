@@ -39,6 +39,7 @@ body {
     left: 0;
     position: fixed;
     border: 1px;
+    position: relative;
 }
 
 .linkheaderinnehall {
@@ -56,36 +57,53 @@ body {
 }
 
 .textlink {
-    text-align: center;
+    /* text-align: center;
     margin: 20px;
     font-family: 'Poppins', sans-serif;
     /*width: 35rem;*/
-    color: rgb(255, 184, 52);
-    /* border: 3px solid #73AD21; */
+    /* color: rgb(255, 184, 52);
+      */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fefefe;
+    padding: 100px;
+    margin: 100px;
+
 }
 
-.pp {
+/* .pp {
     display: flex;
-    padding: 20px;
+    
     background-color: #fefefe;
     width: 40%;
     margin-left: 34rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 .linkfooter {
+    /* 
     position: absolute;
-    background-color: rgb(255, 184, 52);
+    
     text-align: center;
     /* position: fixed; */
-    font-family: 'Poppins', sans-serif;
+    /*  */
     /*detta kan påverka att footer inte ser bra ut */
-    margin-top: 50px;
+    /* margin-top: 50px;
     height: 120px;
     width: 100%;
-    font-weight: bolder;
+    font-weight: bolder; */
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 184, 52);
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .linkfooter h2 {
