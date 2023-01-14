@@ -8,9 +8,9 @@
     <title>Ammar CV</title>
 
     <!--links-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="index.js" defer></script>
-    <script src="script.js" defer></script>
+    <script src="/js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/5a9bbefb56.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,22 +18,28 @@
     <!-- my firt big img -->
     <div class="first-big-img">
 
-        <img class="metting-img" src=" ./assets/animationmetting.jpg"> <!-- meeting pic -->
-        <img class="personal-img" src="./assets/personligbild.jpg" alt="personligbild"> <!-- my img -->
+        <img class="metting-img" src=" /assets/index-assets/animationmetting.jpg"> <!-- meeting pic -->
+        <img class="personal-img" src="/assets/index-assets/personligbild.jpg" alt="personligbild"> <!-- my img -->
 
         <div class="img-text">
             <h1>Ammar Hasan</h1>
         </div>
-
         <div class="img-text-2">
             <h2>webbutvecklare inom e-handel</h2>
+            <h3>student på Medieinstitutet</h3>
         </div>
-
         <div class="img-btn">
             <a href="#kontakt">Kontakta mig</a>
-
         </div>
+    </div>
+    <!-- my firt big img -->
 
+
+    <!-- meny -->
+    <div class="toggle-btn" onclick="myFunction();">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
 
 
@@ -44,16 +50,15 @@
         </div>
 
         <!--my links in nav-->
-        <nav>
-            <a href="personligbrev.html">Personlig brev</a> <br> <br>
-            <a href="#presentationstext">Om</a> <br>
-            <a href="#arbetslivserfaranheters">Arbetslivserfaranheters</a> <br><br>
-            <a href="#kontakt">Kontakta mig</a>
+        <nav id="nav">
+            <ul>
+                <li><a href="/html/personligbrev.html">Personlig brev</a></li>
+                <li><a href="#">Om</a></li>
+                <li><a href="#">Arbetslivserfaranheters</a></li>
+                <li><a href="#">Kontakta mig</a></li>
+            </ul>
         </nav>
     </header>
-
-
-
 
 
 
@@ -78,7 +83,7 @@
 
         <div class="card card1">
             <div class="container">
-                <img class="card-img" src="./assets/aboutme.jpeg" alt="about me">
+                <img class="card-img" src="/assets/card-assets/aboutme.jpeg" alt="about me">
             </div>
             <div class="details">
                 <h3>Presentationstext</h3>
@@ -98,7 +103,7 @@
 
         <div class="card card2">
             <div class="container">
-                <img class="card-img" src="./assets/posticpaper.jpeg" alt="education">
+                <img class="card-img" src="/assets/card-assets/educationIcon.png" alt="education">
             </div>
             <div class="details">
                 <h3>Utbildningsbakgrund</h3>
@@ -110,7 +115,7 @@
 
         <div class="card card3">
             <div class="container">
-                <img class="card-img" src="./assets/workexperience.jpeg" alt="Work experience">
+                <img class="card-img" src="/assets/card-assets/workexperience.jpeg" alt="Work experience">
             </div>
             <div class="details">
                 <h3>Arbetslivserfaranheters</h3>
@@ -220,14 +225,14 @@
     </ol> -->
     <!---------------------------------- contact me ------------------------------------->
     <main>
-        <div class="containerr">
+        <div class="containerrr">
             <div class="content">
                 <div class="left-side">
+                    <h1>contact</h1>
                     <div class="address details">
                         <i class="fa-solid fa-location-dot"></i>
                         <div class="topic">Address</div>
-                        <div class="text-one">Uddevalla</div>
-                        <div class="text-two">Sweden</div>
+                        <div class="text-one">Uddevalla, Sweden</div>
                     </div>
 
                     <div class="phone details">
@@ -241,42 +246,22 @@
                         <i class="fa-solid fa-envelope"></i>
                         <div class="topic">Email</div>
                         <div class="text-one">ammarhasan011@gmail.com</div>
-                        <div class="text-two">ammar.hasan@medieinstitutet.se</div>
                     </div>
-                </div>
-
-
-                <div class="right-side">
-                    <div class="topic-text">Send me an email</div>
-                    <p>If you have any work for me, send me a messege</p>
-
-                    <form action="#">
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter your name">
-                        </div>
-
-                        <div class="input-box">
-                            <input type="text" placeholder="Enter your email">
-                        </div>
-
-                        <div class="input-box message-box">
-                            <textarea></textarea>
-                        </div>
-
-                        <div class="button">
-                            <input type="button" value="Send now">
-                        </div>
-                    </form>
+                    <div class="email details">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="topic">School Email</div>
+                        <div class="text-one">ammar.hasan@medieinstitutet.se</div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <!---------------------------------- contact me ------------------------------------->
 
-    <footer class="footer"> <br>
-        <!-- <h2>Tack för att ni tog er tid att läsa!</h2> <br> -->
+    <footer class="footer">
         <h2>Ammar Hasan, student på Medieinstitutet, WIE22D</h2> <br>
         <p>© Creative CV. All rights reserved.</p>
+
 
 
         <a href="mailto:ammarhasan011@gmail.com"><i class="fa-regular fa-envelope fa-2xl"></i></a>

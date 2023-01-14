@@ -8,3 +8,9 @@ document.addEventListener('scroll', function () {
         header.classList.remove("solid");
     }
 });
+
+// hamburger menu
+function myFunction() {
+    var navbar = document.getElementById('nav');
+    navbar.classList.toggle('show');
+};
