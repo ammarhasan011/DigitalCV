@@ -9,7 +9,8 @@
 
     <!--links-->
     <link rel="stylesheet" href="/css/style.css">
-    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <script src="/js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/5a9bbefb56.js" crossorigin="anonymous"></script>
 </head>
@@ -37,25 +38,25 @@
 
     <!-- meny -->
     <div class="toggle-btn" onclick="myFunction();">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="span-header"></span>
+        <span class="span-header"></span>
+        <span class="span-header"></span>
     </div>
 
 
     <header class="header">
         <!-- clickable title -->
         <div class="title">
-            <a href="index.html">Ammar Hasan CV</a>
+            <a id="a-header" href="index.html">Ammar Hasan CV</a>
         </div>
 
         <!--my links in nav-->
-        <nav id="nav">
-            <ul>
-                <li><a href="/html/personligbrev.html">Personlig brev</a></li>
-                <li><a href="#">Om</a></li>
-                <li><a href="#">Arbetslivserfaranheters</a></li>
-                <li><a href="#">Kontakta mig</a></li>
+        <nav class="nav-header">
+            <ul class="ul-header">
+                <li class="li-header"><a id="a-header" href="/html/personligbrev.html">Personlig brev</a></li>
+                <li class="li-header"><a id="a-header" href="#">Om</a></li>
+                <li class="li-header"><a id="a-header" href="#">Arbetslivserfaranheters</a></li>
+                <li class="li-header"><a id="a-header" href="#">Kontakta mig</a></li>
             </ul>
         </nav>
     </header>
@@ -258,7 +259,7 @@
     </main>
     <!---------------------------------- contact me ------------------------------------->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <h2>Ammar Hasan, student på Medieinstitutet, WIE22D</h2> <br>
         <p>© Creative CV. All rights reserved.</p>
 
@@ -270,7 +271,31 @@
         <a href="https://www.linkedin.com/in/ammar-hasan-080043251/" target="_blank"><i
                 class="fa-brands fa-linkedin fa-2xl"></i></a>
         <a href="index.html"><i class="fa-solid fa-arrow-up fa-2xl"></i></a>
-    </footer>
+    </footer> -->
+    <section class="section-footer">
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+
+            <ul class="social-icon">
+                <li class="li-footer"><a id="a-footer" href="#"><i class="fa-brands fa-github"></i></a></li>
+                <li class="li-footer"><a id="a-footer" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="li-footer"><a id="a-footer" href="#"><i class="fa-solid fa-arrow-up"></i></a></li>
+            </ul>
+
+            <ul class="menu">
+                <li><a id="a-footer" href="#">Home</a></li>
+                <li><a id="a-footer" href="#">about</a></li>
+                <li><a id="a-footer" href="#">team</a></li>
+                <li><a id="a-footer" href="#">server</a></li>
+            </ul>
+            <p class="p-footer"> &copy; 2023 All Rights Reserved to Ammar Hasan</p>
+        </footer>
+    </section>
 
 </body>
 

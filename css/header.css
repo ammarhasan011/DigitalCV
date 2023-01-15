@@ -1,0 +1,114 @@
+header {
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.nav-header .ul-header .li-header {
+    display: inline-block;
+}
+
+.toggle-btn {
+    width: 35px;
+    position: absolute;
+    right: 50px;
+    top: 24px;
+    display: none;
+}
+
+.toggle-btn .span-header {
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    /* float: left; */
+    margin-bottom: 8px;
+}
+
+@media (max-width: 991px) {
+    .toggle-btn {
+        display: block;
+    }
+
+    .nav-header {
+        display: none;
+        width: 100%;
+        border-top: 1px solid #000;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+
+    .nav-header .ul-header .li-header {
+        padding: 15px 0px;
+        width: 100%;
+    }
+
+    .nav-header .show {
+        display: block;
+    }
+}
+
+/* colorer header when scroll */
+.header.solid {
+    background-color: black;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.15);
+}
+
+/* logo */
+.title {
+    padding: 10px;
+    font-weight: bold;
+    justify-content: flex-start;
+    z-index: -1;
+    /* display: flex; */
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*///////////////////////////hover colored in nav */
+/* nav { */
+/* display: flex; */
+/* display: inline-block;
+    align-items: center;
+    font-weight: bold;
+} */
+
+#a-header {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.628);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 0 8px;
+}
+
+#a-header:after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+#a-header:hover {
+    color: #ffffff;
+}
+
+#a-header:hover:after {
+    width: 100%;
+}

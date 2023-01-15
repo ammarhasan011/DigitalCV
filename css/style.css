@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins : 200, 300, 400, 500, 600, 700,800, 900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins : 200, 300, 400, 500, 600, 700,800, 900&display=swap'); */
 
 *,
 *:before,
@@ -11,132 +11,6 @@
 
 /*/////////////////////////////////////////////////////////////////////// Header ///////////////////////////////////////////////////////////*/
 /* Header */
-
-header {
-    background-color: transparent;
-    height: auto;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    transition: all 0.5s;
-    z-index: 1;
-}
-
-#nav ul li {
-    display: inline-block;
-}
-
-.toggle-btn {
-    width: 35px;
-    position: absolute;
-    right: 50px;
-    top: 24px;
-    display: none;
-}
-
-.toggle-btn span {
-    display: inline-block;
-    width: 100%;
-    height: 3px;
-    background-color: #000;
-    float: left;
-    margin-bottom: 8px;
-}
-
-@media (max-width: 991px) {
-    .toggle-btn {
-        display: block;
-    }
-
-    #nav {
-        display: none;
-        width: 100%;
-        border-top: 1px solid #000;
-        padding-top: 20px;
-        margin-top: 30px;
-    }
-
-    nav ul li {
-        padding: 15px 0px;
-        width: 100%;
-    }
-
-    #nav .show {
-        display: block;
-    }
-}
-
-/* colorer header when scroll */
-.header.solid {
-    background-color: black;
-    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.15);
-}
-
-/* logo */
-.title {
-    padding: 10px;
-    font-weight: bold;
-    justify-content: flex-start;
-    z-index: -1;
-    /* display: flex; */
-    display: inline-block;
-    align-items: center;
-    justify-content: space-around;
-}
-
-/*///////////////////////////hover colored in nav */
-/* nav { */
-/* display: flex; */
-/* display: inline-block;
-    align-items: center;
-    font-weight: bold;
-} */
-
-a {
-    position: relative;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: rgba(255, 255, 255, 0.628);
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    padding: 0 8px;
-}
-
-a:after {
-    content: "";
-    position: absolute;
-    background-color: #ff3c78;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-a:hover:after {
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /*/////////////////////////////////////////////////////////////////////// Big section ///////////////////////////////////////////////////////////*/
 /* first section*/
@@ -229,6 +103,7 @@ a:hover:after {
 .container {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    flex-wrap: wrap;
 }
 
 .card-img {
@@ -291,6 +166,24 @@ a:hover:after {
     line-height: 30px;
     font-weight: 400;
     margin-left: 20px;
+}
+
+.card:hover {
+
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-image: linear-gradient(135deg,
+            #0100ec,
+            #fb36f4,
+            #2bdce3,
+            #42ffdb,
+            #ffab1d,
+            #f8501c);
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 /*/////////////////////////////////////////////////////////////////////// Header ///////////////////////////////////////////////////////////*/
@@ -471,7 +364,16 @@ main {
     .containerrr {
         width: 80%;
         height: 100%;
+        margin-bottom: 120px;
 
+    }
+
+    .minasprak {
+        width: 80%;
+    }
+
+    .cards {
+        width: 80%;
     }
 }
 
@@ -602,6 +504,7 @@ body {
     background: #27ae60;
 }
 
+/* 
 footer {
     background-color: #ff3c78;
     height: auto;
@@ -615,4 +518,4 @@ footer {
 
 footer h2 {
     color: white;
-}
+} */
