@@ -46,11 +46,13 @@ footer .social-icon .li-footer #a-footer {
     transition: 0.5s;
 }
 
-footer .social-icon .li-footer #a-footer:hover {
+/* hover på dessa funkar inte  */
+
+footer .social-icon .li-footer#a-footer:hover {
     transition: translateY(-10px);
 }
 
-footer .menu .li-footer#a-footer {
+/* footer .menu .li-footer#a-footer {
     font-size: 1.2rem;
     color: #fff;
     margin: 0 10px;
@@ -59,18 +61,18 @@ footer .menu .li-footer#a-footer {
     display: inline-block;
     text-decoration: none;
     opacity: 0.75;
-}
-
+} */
+/* 
 footer .menu .li-footer#a-footer:hover {
     opacity: 1;
-}
+} */
 
 footer .p-footer {
     color: #fff;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 footer .wave {
