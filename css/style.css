@@ -311,7 +311,7 @@ main {
     padding: 20px 60px 30px 40px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .containerrr .contact {
@@ -375,6 +375,35 @@ main {
 
     .cards {
         width: 80%;
+    }
+
+    .metting-img {
+        background-size: cover;
+    }
+
+    .personal-img {
+        width: 100px;
+        height: 150px;
+        left: 30px;
+        top: 200px;
+    }
+
+    .img-text {
+        left: 170px;
+        top: 240px;
+        font-size: 10px;
+    }
+
+    .img-text-2 {
+        left: 170px;
+        top: 270px;
+        font-size: 9px;
+    }
+
+    .img-btn {
+        left: 170px;
+        top: 320px;
+        font-size: 10px;
     }
 }
 
