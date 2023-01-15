@@ -77,13 +77,19 @@
     margin-top: 20px;
 }
 
+.img-btn #hire-me {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.628);
+}
+
 .img-btn:hover {
     color: #fff;
     outline: none;
     border: none;
     padding: 8px 16px;
     border-radius: 40px;
-    background: #3e2093;
+    background: rgba(252, 103, 103, 1);
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
 }
