@@ -14,8 +14,15 @@
 
 /*/////////////////////////////////////////////////////////////////////// Big section ///////////////////////////////////////////////////////////*/
 /* first section*/
+/* .first-big-img .metting-img:not(#exclude) { */
 .first-big-img {
+    /* position: relative; */
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100px;
     position: relative;
+    flex-direction: column;
 }
 
 /* meeting pic*/
@@ -34,47 +41,57 @@
 .personal-img {
     width: 200px;
     height: 290px;
+    /* float: left; */
+
     /*box-shadow: 6px 6px 40px 10px rgba(252, 103, 103, 1); */
     box-shadow: 10px 10px 0px 10px rgba(252, 103, 103, 1);
     /* box-shadow: 10px 10px 10px 10px rgba(252, 103, 103, 1); */
-
     position: absolute;
-    align-items: center;
-    width: fit-content;
-    top: 160px;
-    left: 600px;
 
+
+
+    /* top: 160px;
+    left: 600px; */
+    top: 30%;
+    left: 30%;
 }
 
 .img-text {
 
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 210px;
-    left: 900px;
+    /* top: 210px;
+    left: 900px; */
     font-weight: bold;
     margin-top: 20px;
+    top: 35%;
+    left: 45%;
 }
 
 .img-text-2 {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 280px;
-    left: 900px;
+    /* top: 280px;
+    left: 900px; */
     font-weight: bold;
     margin-top: 20px;
+    top: 46%;
+    left: 45%;
 
 }
 
 .img-btn {
     font-family: 'Poppins', sans-serif;
+    /* position: absolute; */
     position: absolute;
-    top: 340px;
-    left: 900px;
+    /* top: 340px;
+    left: 900px; */
     font-weight: bold;
     border-radius: 10px;
     border: none;
     margin-top: 20px;
+    top: 55%;
+    left: 45%;
 }
 
 .img-btn #hire-me {
@@ -181,7 +198,7 @@
     margin-left: 20px;
 }
 
-.card:hover {
+.card1:hover {
 
     color: #fff;
     outline: none;
@@ -190,9 +207,33 @@
     border-radius: 40px;
     background-image: linear-gradient(135deg,
             #0100ec,
-            #fb36f4,
-            #2bdce3,
-            #42ffdb,
+            #fb36f4);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.card2:hover {
+
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-image: linear-gradient(135deg,
+            #00f7ff,
+            #33a591);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.card3:hover {
+
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-image: linear-gradient(135deg,
             #ffab1d,
             #f8501c);
     cursor: pointer;
@@ -541,25 +582,30 @@ footer h2 {
     .personal-img {
         width: 100px;
         height: 150px;
-        left: 30px;
-        top: 200px;
+        left: 16%;
+        top: 37%;
+
     }
 
     .img-text {
-        left: 170px;
-        top: 240px;
+        left: 50%;
+        top: 40%;
         font-size: 10px;
     }
 
     .img-text-2 {
-        left: 170px;
-        top: 270px;
-        font-size: 9px;
+        left: 50%;
+        top: 47%;
+        font-size: 8px;
     }
 
     .img-btn {
-        left: 170px;
-        top: 320px;
+        left: 50%;
+        top: 53%;
         font-size: 10px;
     }
+
+    /* .card card1,
+    .card card2, */
+
 }
