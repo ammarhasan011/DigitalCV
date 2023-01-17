@@ -7,8 +7,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* min-height: 100vh;
-    background: #333; */
 }
 
 footer {
@@ -38,34 +36,36 @@ footer .menu .li-footer {
     list-style: none;
 }
 
-footer .social-icon .li-footer #a-footer {
+
+footer #icon-footer {
     font-size: 2rem;
-    color: #fff;
+    color: #c5b8b8;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
 }
 
-/* hover på dessa funkar inte  */
 
-footer .social-icon .li-footer#a-footer:hover {
-    transition: translateY(-10px);
+footer #icon-footer:hover {
+    transform: translateY(-10px);
+    color: #fff;
 }
 
-/* footer .menu .li-footer#a-footer {
+footer #a-footer {
     font-size: 1.2rem;
-    color: #fff;
-    margin: 0 10px;
+    color: #c5b8b8;
+    margin: 0 8px;
     display: inline-block;
     transition: 0.5s;
     display: inline-block;
     text-decoration: none;
     opacity: 0.75;
-} */
-/* 
-footer .menu .li-footer#a-footer:hover {
-    opacity: 1;
-} */
+}
+
+footer #a-footer:hover {
+    color: #fff;
+}
+
 
 footer .p-footer {
     color: #fff;
