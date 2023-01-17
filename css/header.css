@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 header {
     background-color: transparent;
     height: auto;
@@ -101,17 +108,8 @@ header {
     padding: 0 8px;
 }
 
-.toggle-btn:after {
-    content: "";
-    position: absolute;
-    background-color: #ff3c78;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
 
+.toggle-btn:after,
 #a-header:after {
     content: "";
     position: absolute;
