@@ -22,7 +22,7 @@ header {
     /* z-index: 10; */
     background-color: transparent;
     /* background-color: blue; */
-    border: solid 4px red;
+    /* border: solid 4px red; */
     transition: background-color 0.5s ease;
 
     padding: 10px 20px;
