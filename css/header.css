@@ -20,6 +20,7 @@ header {
     transition: all 0.5s;
     z-index: 1;
     /* border: solid blue; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-header .ul-header .li-header {
@@ -98,7 +99,7 @@ header {
 #a-header {
     position: relative;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+
     color: rgba(255, 255, 255, 0.628);
     font-size: 15px;
     letter-spacing: 0.5px;
