@@ -15,3 +15,24 @@ function myFunction() {
     navbar.classList.toggle('show');
     console.log("working");
 };
+
+// const menuBtn = document.querySelector('.menu-btn');
+// const nav = document.querySelector('.nav');
+
+// let showNav = false;
+
+// menuBtn.addEventListener('click', toggleNav);
+
+// function toggleNav() {
+//     if (!showNav) {
+//         menuBtn.classList.add('open');
+//         nav.classList.add('show-nav');
+
+//         showNav = true;
+//     } else {
+//         menuBtn.classList.remove('open');
+//         nav.classList.remove('show-nav');
+
+//         showNav = false;
+//     }
+// }
