@@ -11,6 +11,7 @@ document.addEventListener('scroll', function () {
 
 // hamburger menu
 function myFunction() {
-    var navbar = document.getElementById('nav');
+    var navbar = document.querySelector('.nav-header');
     navbar.classList.toggle('show');
+    console.log("working");
 };
