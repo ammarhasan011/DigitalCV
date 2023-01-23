@@ -67,7 +67,7 @@ header ul {
 #a-header {
     position: relative;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.628);
+    color: dimgray;
     font-size: 15px;
     letter-spacing: 0.5px;
     padding: 0 8px;
@@ -105,8 +105,29 @@ header ul {
     }
 }
 
+.print {
+    size: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
 .textlink {
     background-color: pink;
     min-height: 200vh;
-    margin-top: 96px;
+    padding: 50px;
+    /* margin: 70px; */
+    width: 100%;
+}
+
+.letter {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pp {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
