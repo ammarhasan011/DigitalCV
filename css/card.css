@@ -59,6 +59,11 @@
             #ffab1d,
             #f8501c);
 }
+.card4>.container:after {
+    background-image: linear-gradient(135deg,
+    #e55d87,
+    #5fc3e4);
+}
 
 .details {
     padding: 20px 10px;
@@ -124,6 +129,19 @@
     background-image: linear-gradient(135deg,
             #ffab1d,
             #f8501c);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.card4:hover {
+
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 40px;
+    background-image: linear-gradient(135deg,
+            #e55d87,
+            #5fc3e4);
     cursor: pointer;
     transition: all 0.5s ease;
 }
