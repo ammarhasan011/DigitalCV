@@ -4,33 +4,23 @@
     box-sizing: border-box;
 }
 
-/* body {
-    min-height: 300vh;
-    border: solid 4px red;
-} */
-
 header {
-    /* position: absolute; */
     top: 0;
     left: 0;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.289);
     align-items: center;
-    /* padding: 15px 100px; */
-    /* z-index: 10; */
     background-color: transparent;
-    /* background-color: blue; */
-    /* border: solid 4px red; */
     transition: background-color 0.5s ease;
     font-family: 'Poppins', sans-serif;
-
     padding: 10px 20px;
     z-index: 1;
 }
 
-header.scrolled {
+header.solid {
     background-color: black;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.15);
 }
@@ -91,10 +81,43 @@ header ul {
 #a-header:hover:after {
     width: 100%;
 }
+.textlink {
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 50px;
+    /* margin: 70px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter {
+    background-color: #353b48;
+    box-shadow: 30px 30px 0px rgb(252 103 103);
+    color: #fff;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* max-width: 80%; */
+    margin: 20px 20px;
+    
+
+}
+.letter:hover {
+    background-color: #353b48be;
+    box-shadow: 20px 20px 0px rgb(252 103 103);
+}
+.pp {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
 
 @media(max-width: 991px) {
     header {
-
         padding: 10px 20px;
         flex-direction: column;
     }
@@ -103,31 +126,8 @@ header ul {
         /* padding: 4px; */
         margin-top: 10px;
     }
-}
-
-.print {
-    size: 20px;
-    margin-top: 200px;
-    margin-bottom: 10px;
-}
-
-.textlink {
-    background-color: pink;
-    min-height: 200vh;
-    padding: 50px;
-    /* margin: 70px; */
-    width: 100%;
-}
-
-.letter {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.pp {
-    margin-top: 30px;
-    font-family: 'Poppins', sans-serif;
+    .letter{
+        margin-top: 100px;
+        width: 100%;
+    }
 }
