@@ -172,6 +172,7 @@
     margin-top: 100px;
     color: black;
     padding: 20px;
+    font-family: 'Lato', sans-serif;
     /* padding-top: 110px; */
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -180,7 +181,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .minasprak li {
@@ -285,6 +286,7 @@ main {
     align-items: center;
     justify-content: center;
     margin: 5px;
+
 }
 
 .containerrr {
@@ -295,6 +297,7 @@ main {
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     margin-bottom: 150px;
+    font-family: 'Lato', sans-serif;
 }
 
 .containerrr .contact {
